@@ -18,9 +18,19 @@
             </div>
         </section>
         <section>
-            <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4">
-                
-
+            <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4">            
+              </div>
+              <div id="error-message" class="w-75 mx-auto d-none">
+                <h2 class="text-danger mx-4">Not Found , Please Try Again</h2>
+              </div>
+              <!-- add spinner -->
+              <div id="spinner" class="d-flex justify-content-center align-content-center h-[400px] d-none">
+                <div class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
+              <div id="show-all" class="text-center d-none">
+                <button id="btn-show-all" class="btn btn-primary">Show All</button>
               </div>
 
         </section>
